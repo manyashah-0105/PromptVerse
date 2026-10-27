@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About – PromptVerse</title>
+<meta name="description" content="PromptVerse is a simple, student-friendly library of AI prompts. Free, no sign up.">
+<meta name="theme-color" content="#2b318d">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="about">
+<a class="skip" href="#main">Skip to content</a>
+<header data-component="header"></header>
+<div class="rule"></div>
+<main id="main">
+  <section class="wrap about-head" aria-labelledby="about-title">
+    <p class="eyebrow">ABOUT US</p>
+    <h1 class="page-title" id="about-title">Where Ideas find the<br>right Prompt</h1>
+    <p class="lead">Prompt Verse is a simple , student-friendly library of AI prompts designed to help you discover ideas, copy prompts , and bring your creativity to life.</p>
+  </section>
+  <div class="rule"></div>
+  <div class="wrap stack">
+    <section class="panel what" aria-labelledby="what-title">
+      <div class="what-head"><span class="tile"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-send"/></svg></span><h2 id="what-title">What is PromptVerse <small>?</small></h2></div>
+      <p>PromptVerse is a school focused prompt library where students can easily find ,copy and use prompts to generate images using their favorite AI tools . Its simple,free,and open to everyone - no registration, no login, just exploring creativity.</p>
+      <ul class="features">
+        <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bolt"/></svg><strong>Easy to use</strong><span>Just copy and create</span></li>
+        <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-dash"/></svg><strong>Wide range</strong><span>From school projects to creative ideas</span></li>
+        <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><strong>Student Focused</strong><span>Designed for learners like you.</span></li>
+        <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-coin"/></svg><strong>FREE</strong><span>100% free, no sign up</span></li>
+      </ul>
+    </section>
+    <div class="row-2">
+      <section class="panel review" id="review" aria-labelledby="review-title">
+        <div class="sec-head"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-edit"/></svg><h2 id="review-title">Review Section</h2></div>
+        <p class="intro">Share your Thoughts! Leave a Review or give Feedback Your message helps improve PromptVerse for everyone</p>
+        <form class="form" id="review-form" novalidate>
+          <div class="field"><label class="sr" for="r-email">Your Email</label><input id="r-email" name="email" type="email" placeholder="Your Email" autocomplete="email" required aria-describedby="review-email-err"><p class="err" id="review-email-err" role="alert"></p></div>
+          <div class="field"><label class="sr" for="r-msg">Send message or feedback</label><textarea id="r-msg" name="message" placeholder="Send message or feedback....." required aria-describedby="review-msg-err"></textarea><p class="err" id="review-msg-err" role="alert"></p></div>
+          <div class="form-actions"><p class="status" role="status"></p><button class="btn-tint" type="submit"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-send"/></svg>Send</button></div>
+        </form>
+      </section>
+      <section class="panel contact" aria-labelledby="contact-title">
+        <div class="sec-head"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg><h2 id="contact-title">Contact Us</h2></div>
+        <p>Have questions ,suggestions or need help ?<br>We would like to hear from you !</p>
+        <a class="mail" href="mailto:shahmanya152012@gmail.com">shahmanya152012@gmail.com</a>
+      </section>
+    </div>
+    <div class="row-3">
+      <div data-component="idea"></div>
+      <section class="panel suggest" aria-labelledby="suggest-title">
+        <div class="sec-head"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-crown"/></svg><h2 id="suggest-title">What type of more prompts<br>would you like to see ?</h2></div>
+        <p>We are always looking to add more and new exciting prompts! Let us know what would you like- we would try to include it soon</p>
+        <form class="suggest-form" id="suggest-form" novalidate>
+          <label class="sr" for="idea">Share your ideas</label>
+          <input id="idea" name="idea" type="text" placeholder="Share your ideas....." aria-describedby="suggest-err">
+          <button type="submit" aria-label="Send idea"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></button>
+        </form>
+        <p class="err" id="suggest-err" role="alert" style="margin:8px 0 0 100px"></p>
+        <p class="status" id="suggest-status" role="status" style="margin:8px 0 0 100px;font-size:15px"></p>
+      </section>
+    </div>
+  </div>
+  <div data-component="cta"></div>
+</main>
+<footer data-component="footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PromptVerse – Find Perfect AI Prompt</title>
+<meta name="description" content="Discover a curated collection of creative, interesting and high quality AI prompts. Copy, paste and generate your own ideas.">
+<meta name="theme-color" content="#2b318d">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+<a class="skip" href="#main">Skip to content</a>
+<header data-component="header"></header>
+<div class="rule"></div>
+<main id="main">
+  <section class="wrap hero" aria-labelledby="hero-title">
+    <div class="hero-text">
+      <p class="eyebrow">Explore.Copy.Create</p>
+      <h1 id="hero-title">The Easiest Way to<br>Find Perfect <span class="accent">AI Prompt</span></h1>
+      <p class="lead">Discover a curated collection of creative,interesting and high quality prompts .Copy Paste and generate your own ideas .</p>
+      <form class="search" id="search-form" role="search">
+        <label class="sr" for="q">Search for more prompts</label>
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
+        <input id="q" type="search" placeholder="Search for more prompts" autocomplete="off">
+      </form>
+    </div>
+    <div class="hero-art">
+      <img class="art-a" src="assets/images/hero/prompt-window.svg" alt="A prompt being typed into an AI tool" width="300" height="259">
+      <img class="art-b" src="assets/images/hero/ai-landscape.svg" alt="AI-generated landscape artwork with sun and mountains" width="280" height="120">
+      <img class="art-c" src="assets/images/hero/creative-tools.svg" alt="Palette, pencil and sparkles representing creative ideas" width="280" height="120">
+    </div>
+  </section>
+  <div class="rule"></div>
+  <div class="wrap layout">
+    <aside class="side">
+      <nav class="panel cat-panel" aria-labelledby="cat-title">
+        <div class="panel-head"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-dash"/></svg><h2 id="cat-title">Categories</h2></div>
+      </nav>
+      <div data-component="idea"></div>
+    </aside>
+    <section class="home-main" aria-label="Main content"></section>
+  </div>
+  <div data-component="cta"></div>
+</main>
+<footer data-component="footer"></footer>
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
